@@ -15,7 +15,7 @@ function draw() {
   
   for(let i = 0; i < asteroids.length; i++){
     if(ship.hits(asteroids[i])){
-      console.log('oops!');
+      alert('oops!');
     }
   }
   
